@@ -27,24 +27,3 @@ botao.addEventListener('mousedown', (event) => {
     som.pause();
  })
 
- async function ligar() {
-    if (track) {
-        try {
-            await track.applyConstraints({ advanced: [{ torch: true }] })
-        } catch (error) {
-            console.error(`Erro ao inicializar a lanterna: ${error}`)
-        }
-    }
-}
-
-
- async function desligar() {
-    if (track) {
-        try {
-            await track.applyConstraints({ advanced: [{ torch: false }] })
-        } catch (error) {
-            console.error(`Erro ao inicializar a lanterna: ${error}`)
-        }
-    }
-}
-
