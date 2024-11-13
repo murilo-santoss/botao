@@ -3,8 +3,8 @@
  * @author murilo dos santos
  */
 
-const botao = document.getElementById ('button') 
-let som = new Audio ("audio/brazil-eas-alarm-blood-moon-260034.mp3")
+const botao = document.getElementById('button') 
+let som = new Audio ("audio/som.mp3")
 
 // lanterna (pré carregamento)
 let stream, track
