@@ -1,4 +1,5 @@
 #button{
     width: 45%;
     height: auto;
+    display: none; /* ISso daqui é para o celular n colocar a opçao de baixar a imagem, atrapalhando botão*/
 }
