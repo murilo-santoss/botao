@@ -3,7 +3,8 @@
  * @author murilo dos santos
  */
 
-const botao = document.getElementById('button') 
+const botao = document.getElementById('button')
+const lampadaimg = document.getElementById('lamp') 
 let som = new Audio ("audio/som.mp3")
 
 // lanterna (pré carregamento)
